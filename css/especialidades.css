@@ -1,0 +1,92 @@
+header nav {			/*CLASE PARA LA BARRA DE NAVEGACION*/
+	background:#1fbfa9;
+	margin-bottom:30px;
+	height: 70px;
+	padding:17px;
+}
+
+
+.bottonh{		/*CLASE PARA LOS BOTONES DE LA BARRA DE NAVEGACION*/
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+}
+.logout{      /*CLASE PARA EL BOTON LOGIN DE LA BARRA DE NAVEGACION*/
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    -webkit-text-fill-color: white;
+    font-family: gothic;
+    float: right;
+}
+.logo{		/*CLASE PARA EL LOGO DE LA BARRA DE NAVEGACION*/
+	width: 7%;
+	height: 36px ;
+	width: 130px;
+}
+.final{
+    background: #202020 !important;
+    border-radius: 0px !important;
+}
+@font-face{
+    font-family: gothic;
+    src: url(../css/GOTHIC.ttf);
+}                               /*CLASE PARA LA FUENTE*/
+.fontf{                 
+    font-family: gothic;
+}
+
+
+.alin{
+    margin-top: 20px;
+    margin-bottom: 30px !important;
+    border-radius: 20px !important;
+}
+.alin1{
+    height: 100px;
+    margin-left: 170px !important;
+    -webkit-transform : scale(0.7);
+}
+.tex{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.zoom{
+    transition: 1s ease;
+}
+
+.zoom:hover{
+    -webkit-transform : scale(1.1);
+    -webkit-transition: 1s ease;
+}
+
+.container{
+    margin-left: % !important;
+}
+.mid{                                   /*CLASE PARA PERSONALIZAR EL CONTAINER*/
+    
+    border-radius: 20px;
+    width: 70% !important;
+    margin-top: 50px;
+    margin-left:460px !important;
+}
+.p{
+    font-size: 20px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px black;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    -webkit-text-fill-color: black;
+}
+.ser{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
